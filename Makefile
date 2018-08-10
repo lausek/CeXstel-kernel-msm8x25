@@ -388,13 +388,13 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
-		   -fno-delete-null-pointer-checks
-                   -marm -mfloat-abi=softfp -march=armv7-a \
-                   -mfpu=neon -ffast-math -pipe \
-                   -funswitch-loops -fpredictive-commoning -fgcse-after-reload -fno-tree-vectorize \
-                   -ftree-vectorize -funsafe-math-optimizations \
-                   -fsched-spec-load -mvectorize-with-neon-quad \
-                   -fmodulo-sched -fmodulo-sched-allow-regmoves \
+		   -fno-delete-null-pointer-checks \
+		   -marm -mfloat-abi=softfp -march=armv7-a \
+		   -mfpu=neon -ffast-math -pipe \
+		   -funswitch-loops -fpredictive-commoning -fgcse-after-reload -fno-tree-vectorize \
+		   -ftree-vectorize -funsafe-math-optimizations \
+		   -fsched-spec-load -mvectorize-with-neon-quad \
+		   -fmodulo-sched -fmodulo-sched-allow-regmoves \
 
 
 
